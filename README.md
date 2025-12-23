@@ -32,4 +32,6 @@ git clone https://github.com/FreyaJF/PatientCentreAssignment.git
 
 python -m unittest test_AnalyticsBuffer.py
 
+If Python or Git aren't installed, try using the GitHub online codespaces - select the green "code" dropdown at the top of the repository page.
+
 
