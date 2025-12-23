@@ -24,7 +24,12 @@ Automated unit tests
 
 ## How to run
 
-After cloning the repository, you can run the unit tests using:
+1) Clone the repository:
+
+git clone https://github.com/FreyaJF/PatientCentreAssignment.git
+cd PatientCentreAssignment
+
+2) Run the unit tests using:
 
 python -m unittest test_analytics_buffer.py
 
