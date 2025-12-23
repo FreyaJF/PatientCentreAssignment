@@ -4,11 +4,11 @@ from AnalyticsBuffer import AnalyticsBuffer
 from MockAPI import MockAPI
 
 
-class TestAnalyticsBuffer(unittest.TestCase):
+class test_analytics_buffer(unittest.TestCase):
 
     def test_flush_at_buffer_max(self):
         api = MockAPI()
-        buffer = AnalyticsBuffer(mock_api_instance=api, max_time_between_flushes=1000)  # disable timer flush
+        buffer = AnalyticsBuffer(mock_api_instance=api, buffer_maximum=5, max_time_between_flushes=1000)  # disable timer flush
 
         buffer.track(("event1",))
         buffer.track(("event2",))
