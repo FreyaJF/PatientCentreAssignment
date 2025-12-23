@@ -8,7 +8,7 @@ class AnalyticsBuffer:
     # constructor
     def __init__(self,
                  mock_api_instance: MockAPI,
-                 buffer_maximum: int = 5,
+                 buffer_maximum: int = 10,
                  max_time_between_flushes: float = 5,
                  timer_check_interval: float = 0.5):
 
