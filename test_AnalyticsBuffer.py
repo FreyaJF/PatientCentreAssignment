@@ -96,5 +96,6 @@ class TestAnalyticsBuffer(unittest.TestCase):
         del api
         del buffer
 
+
 if __name__ == '__main__':
     unittest.main()
