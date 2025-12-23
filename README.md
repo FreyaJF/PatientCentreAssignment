@@ -9,13 +9,13 @@ Tested on Python 3.12.
 ## Project Structure
 
 ├── AnalyticsBuffer.py 
-  # Analytics buffer implementation
+   Analytics buffer implementation
   
 ├── MockAPI.py 
-  # Mock API implementation
+   Mock API implementation
   
 ├── test_analytics_buffer.py 
-  # Automated unit tests
+   Automated unit tests
   
 └── README.md
 
